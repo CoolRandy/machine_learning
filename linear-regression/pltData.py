@@ -47,7 +47,7 @@ def standRegression(xArr, yArr):
 #   y矩阵转置
     yMat = np.mat(yArr).T;
     xTx = xMat.T * xMat;
-#   判断矩阵是否可求逆
+#   判断矩阵是否可求逆:采用linalg.det计算行列式的方式，如果行列式的值为0，那么矩阵不可逆
     if np.linalg.det(xTx) == 0.0:
         print ("矩阵为奇异矩阵，不可求逆")
         return
@@ -63,7 +63,7 @@ def plotRegression():
     xMat = np.mat(xArr)   #创建xMat矩阵
     yMat = np.mat(yArr)    #创建yMat矩阵
     xCopy = xMat.copy()      #深拷贝xMat矩阵
-    xCopy.sort(0)       #排序
+    xCopy.sort(0)       #排序，这里是为了避免直线上数据点次序混乱，导致绘图出现问题，所以这里将点按照升序进行排列
     yHat = xCopy * ws   #计算对应的y值
     fig = plt.figure()
     ax = fig.add_subplot(111)  #添加subplot
