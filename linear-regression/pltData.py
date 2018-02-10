@@ -12,9 +12,9 @@ def loadDataSet(fileName):
         xArr - x数据集
         yArr - y数据集
         Website:
-        http://www.cuijiahua.com/
+        
         Modify:
-        2017-11-12
+        2018-02-10
         """
     
     numFeat = len(open(fileName).readline().split('\t')) - 1
