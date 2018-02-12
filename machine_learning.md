@@ -84,7 +84,7 @@ http://mp.weixin.qq.com/s/Ad22EUAu8VAhy5AVlqLBDw
 
 总结下来会发现，机器学习的三要素就是：数据、学习算法和模型（映射）
 
-![样本数据](/Users/randy/Documents/ml/machine_learning/resource/样本数据.jpg)
+![样本数据](https://github.com/CoolRandy/machine_learning/blob/master/resource/%E6%A0%B7%E6%9C%AC%E6%95%B0%E6%8D%AE.jpg)
 
 接下来针对具体的示例来说明：
 
@@ -101,7 +101,7 @@ http://mp.weixin.qq.com/s/Ad22EUAu8VAhy5AVlqLBDw
 
 - 无监督学习：训练样本没有标注，无监督学习解决的典型问题是**聚类（clustering）**问题。比如对一个网站的用户进行聚类，看看这个网站用户的大致构成，分析下每类用户群的特点是什么。
 
-![映射](/Users/randy/Documents/ml/machine_learning/resource/映射.png)
+![映射](https://github.com/CoolRandy/machine_learning/blob/master/resource/%E6%98%A0%E5%B0%84.png)
 
 数据部分的映射：
 
